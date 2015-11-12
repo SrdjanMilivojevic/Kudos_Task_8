@@ -1,0 +1,7 @@
+Implementirati abstraktnu klasu Db_Abstract i sve njene abstraktne metode u Db_Mysql klasu. 
+Pažljivo pročitati komentar svake metode Db_Abstract klase (sta vraca, i kako se ponasa) i 
+ispratiti to u metodama Db_Mysql klase. Za pristupanje bazi koristiti mysql ekstenziju.
+Posle implementacije Db_Mysql klase, treba izvršiti jedan INSERT, DELETE, UPDATE i SELECT upit na user tabeli 
+koristeci Db_Mysql klasu i šemu baze, koja vam se nalazi u schema.sql fajlu. 
+INSERT upit treba da se implementira u insert.php fajlu, DELETE u delete.php fajlu, UPDATE u update.php fajlu i SELECT u select.php fajlu.
+Fajl index.php možete koristiti za testove koda, u njemu vam se nalazi i instanca Db_Mysql klase.
